@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant</title>
+  <meta name="author" content="Andro-Emad" />
+  <meta name="keywords" content="HTML, CSS, javascript" />
+  <meta name="description" content="This is my Restaurant. Hi" />
+  <link rel="icon" href="images/android-icon-192x192.png" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!--Start Header-->
+  <header>
+    <div class="container header__container">
+      <div class="logo">
+        <a href="index.html"><img src="images/LaMaison_white.svg" alt="logo imegs" /></a>
+      </div>
+      <nav>
+        <div class="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav__menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Page/AboutUs/aboutUs.html">About us</a></li>
+          <li><a href="Page/Menu/menu.html">Food Menu</a></li>
+          <li><a href="Page/Reservaton/reservaton.html">Reservation</a></li>
+          <li><a href="Page/Communication/communication.html">Communication</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!--End Header-->
+  <!--Start Section Autoplaying-->
+  <section class="section_Autoplaying">
+    <div id="Autoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#Autoplaying" data-bs-slide-to="0"></button>
+        <button type="button" data-bs-target="#Autoplaying" data-bs-slide-to="1" class="active"></button>
+        <button type="button" data-bs-target="#Autoplaying" data-bs-slide-to="2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item ">
+          <img src="images/upload/others/slide2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption  d-md-block">
+            <p>Table reservation recommended</p>
+            <h4>Secure your table</h4>
+            <a href="Page/Reservaton/reservaton.html">For Reservation</a>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <img src="images/upload/others/slide1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption  d-md-block">
+            <h4>Finest Pleasure since 1995</h4>
+            <p>Freshness &amp; high-quality ingredients from the region</p>
+            <a href="Page/Menu/menu.html">Our Menu</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/upload/others/slide3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption  d-md-block">
+            <p>Get To Know Us</p>
+            <h4>Our Strong Team</h4>
+            <a href="Page/AboutUs/aboutUs.html">To The Team</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#Autoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#Autoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!--End Section Autoplaying-->
+  <!--Start Favorite Dishs-->
+  <section id="FavoriteDishs">
+    <div class="container">
+      <div class="Text_FavoriteDishs">
+        <h3>FAVORITE DISHES</h3>
+        <img src="images/divider.png" alt="">
+      </div>
+      <div class="Box_ImgAndText">
+        <div class="box_One">
+          <div class="card_menu">
+            <img src="images/upload/menu/1.jpg" alt="">
+            <div class="box-menu">
+              <h4>Thai Chicken Curry</h4>
+              <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas</p>
+              <span>20.15€</span>
+            </div>
+          </div>
+          <div class="card_menu">
+            <img src="images/upload/menu/2.jpg" alt="">
+            <div class="box-menu">
+              <h4>Sweet &amp; Spicy Chicken</h4>
+              <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas</p>
+              <span>18.30€</span>
+            </div>
+          </div>
+        </div>
+        <div class="box_Two">
+          <div class="card_menu">
+            <div class="box-menu">
+              <h4>Creamed Mushroom Penne</h4>
+              <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas</p>
+              <span>8.99€</span>
+            </div>
+            <img src="images/upload/menu/3.jpg" alt="">
+          </div>
+          <div class="card_menu">
+            <div class="box-menu">
+              <h4>French Salad</h4>
+              <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas</p>
+              <span>11.20€</span>
+            </div>
+            <img src="images/upload/menu/4.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End Favorite Dishs-->
+  <!--Start Opening Hours-->
+  <section id="OpeningHours">
+    <div class="container">
+      <h2>Opening Hours</h2>
+      <div class="box_day">
+        <div class="day">
+          <p>Monday</p>
+          <p>
+            <span>11:30 - 3:30pm</span>
+            <span>18:00 - 23:30pm</span>
+          </p>
+        </div>
+        <div class="day">
+          <p>Tuesday</p>
+          <p>
+            <span>11:30 - 3:30pm</span>
+            <span>18:00 - 23:30pm</span>
+          </p>
+        </div>
+        <div class="day">
+          <p>Wednesday</p>
+          <p>
+            <span>11:30 - 3:30pm</span>
+            <span>18:00 - 23:30pm</span>
+          </p>
+        </div>
+        <div class="day">
+          <p>Thursday</p>
+          <p>
+            <span>11:30 - 3:30pm</span>
+            <span>18:00 - 23:30pm</span>
+          </p>
+        </div>
+        <div class="day">
+          <p>Friday</p>
+          <p>
+            <span>11:30 - 3:30pm</span>
+            <span>18:00 - 23:30pm</span>
+          </p>
+        </div>
+        <div class="day">
+          <p>Saturday</p>
+          <p>
+            <span>11:30 - 3:30pm</span>
+            <span>18:00 - 23:30pm</span>
+          </p>
+        </div>
+        <div class="day">
+          <p>Sunday</p>
+          <p>
+            <span>11:30 - 3:30pm</span>
+            <span>18:00 - 23:30pm</span>
+          </p>
+        </div>
+      </div>
+      <a href="Page/Reservaton/reservaton.html">RESERVE A TABLE</a>
+    </div>
+  </section>
+  <!--End Opening Hours-->
+  <!--Start Contact Us-->
+  <section id="ContactUs">
+    <div class="container">
+      <h2>CONTACT US</h2>
+      <img src="images/divider.png" alt="">
+      <form action="">
+        <div class="inpot_One">
+          <input name="name" id="name" type="text" placeholder="Name*">
+          <input name="mail" id="mail" type="text" placeholder="E-Mail*">
+        </div>
+        <div class="inpot_Two">
+          <input name="subject" id="subject" type="text" placeholder="Regarding">
+          <input name="website" id="website" type="number" placeholder="Phone">
+        </div>
+        <textarea name="comment" id="comment" placeholder="News*"></textarea>
+        <div class="center-area">
+          <input type="submit" id="send_message" value="Send Message">
+        </div>
+      </form>
+      <div class="contact-info">
+        <div class="row-1">
+          <div class="info-box">
+            <i class="fas fa-map-marked-alt"></i>
+            <div class="box_s">
+              <h3>ADDRESS</h3>
+              <p>Kleestr. 21-23<br> 90461 Nürnberg</p>
+            </div>
+          </div>
+          <div class="info-box">
+            <i class="fas fa-mobile-alt"></i>
+            <div class="box_s">
+              <h3>PHONE</h3>
+              <p>+1234 5678 <br>+2345 7643 </p>
+            </div>
+          </div>
+          <div class="info-box">
+            <i class="far fa-envelope"></i>
+            <div class="box_s">
+              <h3>E-MAIL</h3>
+              <p>info@menury.com <br> menury.com </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End Contact Us-->
+  <!--Start Contact Section-->
+  <section id="contact-section">
+    <div class="container">
+      <div class="instagram-widget">
+        <ul>
+          <li>
+            <img src="images/upload/instagram/1.jpg" alt="">
+          </li>
+          <li>
+            <img src="images/upload/instagram/2.jpg" alt="">
+          </li>
+          <li>
+            <img src="images/upload/instagram/3.jpg" alt="">
+          </li>
+          <li>
+            <img src="images/upload/instagram/4.jpg" alt="">
+          </li>
+          <li>
+            <img src="images/upload/instagram/5.jpg" alt="">
+          </li>
+          <li>
+            <img src="images/upload/instagram/6.jpg" alt="">
+          </li>
+          <li>
+            <img src="images/upload/instagram/7.jpg" alt="">
+          </li>
+          <li>
+            <img src="images/upload/instagram/8.jpg" alt="">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!--End Contact Section-->
+  <!--Start Footer-->
+  <footer>
+    <div class="container">
+      <div class="box_footer">
+        <div class="col-md-6">
+          <p>© <Span class="what_year"></Span> All rights reserved. <span>MENURY</span></p>
+        </div>
+        <ul class="social-icons">
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="Page/AboutUs/aboutUs.html">About us</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!--End Footer-->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/app.js"></script>
+  <!--End 2/20/2023-->
+</body>
+
+</html>
