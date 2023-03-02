@@ -1,0 +1,30 @@
+[
+  {
+  "id":"1",
+"mealImg":"images/android-icon-192x192.png",
+"mealName":"Beer",
+"mealDetails":"brewed in our own brewery, unfiltered wheat",
+"price":"3,50 €"
+  },
+  {
+  "id":"2",
+  "mealImg":"images/android-icon-192x192.png",
+  "mealName":"Barley",
+  "mealDetails":"brewed in our own brewery, unfiltered wheat",
+  "price":"4,50 €"
+  },
+  {
+    "id":"3",
+    "mealImg":"images/android-icon-192x192.png",
+    "mealName":"Barley beer",
+    "mealDetails":"brewed in our own brewery, unfiltered wheat",
+    "price":"6,50 €"
+  }, 
+  {
+    "id":"4",
+    "mealImg":"images/android-icon-192x192.png",
+    "mealName":"Barley",
+    "mealDetails":"brewed in our own brewery, unfiltered wheat",
+    "price":"7,50 €"
+  }
+]

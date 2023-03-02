@@ -1,0 +1,118 @@
+/*Start Menu*/
+#reservaton {
+  padding: 100px 0;
+  background: #111 url(../images/upload/banners/background.jpg) center center
+    no-repeat;
+  background-size: cover;
+}
+#reservaton .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#reservaton .container .reservaton_Text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+/* #reservaton .container .reservaton_Text img {
+  width: 200px;
+} */
+#reservaton .container .reservaton_Text h1 {
+  color: var(--colorTwe);
+}
+#reservaton .container .reservaton_Text a {
+  color: var(--colorOne);
+  transition: var(--transition);
+}
+#reservaton .container .reservaton_Text a:hover {
+  color: var(--colorTwe);
+}
+
+#reservaton .container .reservaton_box {
+  padding: 20px;
+}
+#reservaton .container .reservaton_box form {
+  display: flex;
+  flex-direction: column;
+}
+#reservaton .container .reservaton_box form .one,
+.Two,
+.Three {
+  display: flex;
+  gap: 15px;
+}
+#reservaton .container .reservaton_box form input {
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid var(--colorOne);
+  padding: 10px 0;
+  color: var(--color);
+  transition: var(--transition);
+  padding: 15px 10px;
+  color: #fff;
+}
+#reservaton .container .reservaton_box form input:hover {
+  border-bottom: 2px solid var(--background-colorTwe);
+}
+#reservaton .container .reservaton_box form textarea {
+  width: 100%;
+  padding: 10px 5px;
+  background-color: #00000054;
+  border: 1px solid #ffffff54;
+  margin: 25px 0;
+  height: 200px;
+  color: var(--colorOne);
+}
+#reservaton .container .reservaton_box form #div_policy_checkbox {
+  display: flex;
+  color: #000;
+  padding: 15px 0;
+  align-items: flex-start;
+}
+#reservaton
+  .container
+  .reservaton_box
+  form
+  #div_policy_checkbox
+  input[type="checkbox"] {
+  width: 20px;
+}
+#reservaton .container .reservaton_box form #div_policy_checkbox label,
+a {
+  display: inline-block;
+  color: var(--colorOne);
+}
+#reservaton .container .reservaton_box form #div_policy_checkbox a {
+  text-decoration: underline;
+  transition: var(--transition);
+}
+#reservaton .container .reservaton_box form #div_policy_checkbox a:hover {
+  color: var(--colorTwe);
+}
+#reservaton .container .reservaton_box form input[type="submit"] {
+  width: auto;
+  border: 1px solid;
+  border-radius: 25px;
+  padding: 10px 20px;
+  transition: var(--transition);
+  width: 100px;
+  margin: 0 40%;
+}
+#reservaton .container .reservaton_box form input[type="submit"]:hover {
+  color: #000;
+  background-color: var(--colorOne);
+  box-shadow: 0 0 5px 5px var(--colorOne);
+  border: 1px solid var(--colorOne);
+}
+@media (max-width: 650px) {
+  #reservaton .container .reservaton_box form .one,
+  .Two,
+  .Three {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

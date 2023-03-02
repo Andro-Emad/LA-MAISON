@@ -1,0 +1,171 @@
+/*Start img box*/
+#img-box {
+  background-image: url(../images/upload/banners/ban6.jpg);
+  height: 75vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#img-box .container {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+}
+#img-box .container h3 {
+  color: var(--colorOne);
+  font-size: 40px;
+  font-family: "Mr Dafoe", cursive;
+}
+#img-box .container p {
+  color: var(--colorTwe);
+  font-size: 0.8rem;
+}
+@media (max-width: 767px) {
+  #img-box {
+    height: 50vh;
+  }
+}
+/*End img box*/
+/*Start About*/
+#about-section {
+  padding-top: var(--padding);
+  padding-bottom: var(--padding);
+}
+#about-section .container .about-box .row .col-md-6 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+#about-section .container .about-box .row .col-md-6 .about-content {
+  padding: 50px 0;
+}
+#about-section .container .about-box .row .col-md-6 .about-content h2 {
+  font-weight: 400;
+  margin-bottom: 45px;
+  color: var(--colorTwe);
+}
+#about-section .container .about-box .row .col-md-6 .about-content p {
+  max-width: 450px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 25px;
+  font-size: 13px;
+  color: #999999;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 0 10px;
+}
+#about-section
+  .container
+  .about-box
+  .row
+  .col-md-6
+  .about-content
+  p:last-child {
+  margin-bottom: 0;
+}
+#about-section .container .about-box .row .col-md-6 .about-images {
+  position: relative;
+}
+#about-section .container .about-box .row .col-md-6 .about-images:after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  border: 2px solid #c7ad88;
+}
+#about-section .container .about-box .row .col-md-6 .about-images .col-xs-6 {
+  width: 50%;
+}
+#about-section .container .about-box .row .col-md-6 .about-images img {
+  width: 100%;
+  height: auto;
+}
+/*End About*/
+/*Start Team Section*/
+#team-section {
+  padding: 130px 70px;
+  background: #111 url(../images/upload/banners/background.jpg) center center
+    no-repeat;
+  background-size: cover;
+}
+#team-section .container .title-section {
+  text-align: center;
+  margin-bottom: 70px;
+  position: relative;
+}
+#team-section .container .title-section.white-style h1 {
+  color: var(--colorOne);
+  position: relative;
+  padding-bottom: 46px;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 40px;
+  margin: 0 0 30px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
+#team-section .container .title-section h1:after {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 5px;
+  bottom: 0;
+  left: 50%;
+  margin-left: -35px;
+  background: url(./images/divider.png) center center no-repeat;
+  background-size: cover;
+}
+
+#team-section .container .team-box {
+  display: flex;
+}
+@media (max-width: 767px) {
+  #team-section .container .team-box {
+    flex-wrap: wrap;
+  }
+}
+#team-section .container .team-box .team-post {
+  flex: 1;
+  margin-bottom: 30px;
+  text-align: center;
+}
+#team-section .container .team-box .team-post img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 45px;
+}
+#team-section .container .team-box .team-post h2 {
+  color: #c7ad88;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin: 0 0 15px;
+  line-height: 26px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+#team-section .container .team-box .team-post span {
+  display: inline-block;
+  color: #cccccc;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  margin: 0 0 20px;
+}
+#team-section .container .team-box .team-post p {
+  max-width: 225px;
+  margin: 0 auto;
+  font-style: italic;
+  font-size: 13px;
+  color: #999999;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  line-height: 24px;
+}
+/*End Team Section*/
