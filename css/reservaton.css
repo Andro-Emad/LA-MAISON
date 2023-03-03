@@ -72,6 +72,7 @@
   color: #000;
   padding: 15px 0;
   align-items: flex-start;
+  align-items: center;
 }
 #reservaton
   .container
@@ -114,5 +115,8 @@ a {
   .Three {
     flex-direction: column;
     gap: 10px;
+  }
+  #reservaton .container .reservaton_box form #div_policy_checkbox {
+    align-items: flex-start;
   }
 }
