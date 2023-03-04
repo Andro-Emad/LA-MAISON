@@ -43,6 +43,7 @@
 #menu .container #menu-card .card-box .card-Text {
   padding-top: 20px;
   width: 50%;
+  text-align: center;
 }
 #menu .container #menu-card .card-box .card-Text h2 {
   padding-bottom: 20px;

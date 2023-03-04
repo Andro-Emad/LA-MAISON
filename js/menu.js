@@ -21,34 +21,50 @@ const spanYear = document.querySelector("footer .container .what_year ");
 let dateNow = new Date();
 spanYear.innerHTML = `${dateNow.getFullYear()}`;
 
-//
+//=====================list card==========================
+// Make the list card in two ways, the first is with json and the second is with OOP
 const menu_card = document.querySelector("#menu .container #menu-card");
+//---------1-----------
+//List card making using json
+let xhr = new XMLHttpRequest();
+xhr.open("GET", "meals.json", true);
+xhr.send();
 
-// let myRequest = new XMLHttpRequest();
-// myRequest.open("GET", "meals.json");
-// myRequest.send();
-// console.log(typeof myRequest);
-// myRequest.onreadystatechange = function () {
-//   if (this.readyState === 4 && this.status === 200) {
-//     let jsData = JSON.parse(this.responseText);
+let dataParent = document.createElement("div");
+dataParent.id = "data";
 
-//     let div = document.write(`<div class="card-box">`);
-//     for (let i = 0; i < jsData.length; i++) {
-//       document.write(`<img src="${jsData[i].mealImg}" alt="image Box">`);
-//       document.write(`<div class="card-Text">`);
-//       document.write(`
-//         <h2>${jsData[i].mealName}</h2>
-//         <p>${jsData[i].mealDetails}</p>
-//         <span>${jsData[i].price}</span>
-//       `);
-//       document.write(`</div>`);
-//     }
-//     document.write(`</div>`);
-//     menu_card.appendChild(div);
-//   }
-// };
+xhr.onreadystatechange = function () {
+  if (this.readyState === this.DONE && this.status === 200) {
+    let mainData = JSON.parse(this.response);
+    for (let i = 0; i < mainData.length; i++) {
+      let myMainElement = document.createElement("div");
+      let myMainElement1 = document.createElement("div");
+      let myimg = document.createElement("img");
+      let myHeading = document.createElement("h2");
+      let myParagraph = document.createElement("p");
+      let myspan = document.createElement("span");
+      myMainElement.className = "card-box";
+      myMainElement1.className = "card-Text";
+      myimg.setAttribute(`src`, `${mainData[i].mealImg}`);
+      let myHeadingText = document.createTextNode(mainData[i].mealName);
+      let myParagraphText = document.createTextNode(mainData[i].mealDetails);
+      let myspanText = document.createTextNode(mainData[i].price);
+
+      myHeading.appendChild(myHeadingText);
+      myParagraph.appendChild(myParagraphText);
+      myspan.appendChild(myspanText);
+
+      myMainElement.appendChild(myimg);
+      myMainElement1.append(myHeading, myParagraph, myspan);
+      myMainElement.appendChild(myMainElement1);
+      menu_card.appendChild(myMainElement);
+    }
+  }
+};
 
 //--------------- 2-----------
+// List card work using oop
+/*
 class User {
   constructor(mealImg, mealName, mealDetails, price) {
     this.i = mealImg;
@@ -90,7 +106,7 @@ let user5 = new User(
 let user6 = new User(
   `images/menu/Goggelar.jpg`,
   "Goggelar",
-  "Salad with corn, egg, onions, olives and juicy corn chicken breast fillet",
+  "Salad with corn,  onions, olives and juicy corn chicken breast fillet",
   "12,50 €"
 );
 let user7 = new User(
@@ -197,3 +213,4 @@ for (let i = 0; i < jsData.length; i++) {
   myMainElement.appendChild(myMainElement1);
   menu_card.appendChild(myMainElement);
 }
+*/

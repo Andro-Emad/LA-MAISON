@@ -1,30 +1,114 @@
 [
   {
   "id":"1",
-"mealImg":"images/android-icon-192x192.png",
-"mealName":"Beer",
-"mealDetails":"brewed in our own brewery, unfiltered wheat",
-"price":"3,50 €"
+"mealImg":"images/menu/Classic-Burger.jpg",
+"mealName":"Classic Burger",
+"mealDetails":"Beef (approx. 180g), lettuce, onion, tomatoes and pickle. With french fries 2.40€",
+"price":"8,50 €"
   },
   {
   "id":"2",
-  "mealImg":"images/android-icon-192x192.png",
-  "mealName":"Barley",
-  "mealDetails":"brewed in our own brewery, unfiltered wheat",
-  "price":"4,50 €"
+  "mealImg":"images/menu/Mine-burger.jpg",
+  "mealName":"Mine burger",
+  "mealDetails":"Beef (about 100g), salad, onion, tomatoes, pickle. With french fries 2.40€  ",
+  "price": "4,90 €"
   },
   {
     "id":"3",
-    "mealImg":"images/android-icon-192x192.png",
-    "mealName":"Barley beer",
-    "mealDetails":"brewed in our own brewery, unfiltered wheat",
-    "price":"6,50 €"
+    "mealImg":"images/menu/Sennerin-burger.jpg",
+    "mealName":"Sennerin burger",
+    "mealDetails":"Beef (approx. 250g), cheese, lettuce, onion, tomatoes, pickle. ",
+    "price":"9,50 €"
   }, 
   {
     "id":"4",
-    "mealImg":"images/android-icon-192x192.png",
-    "mealName":"Barley",
-    "mealDetails":"brewed in our own brewery, unfiltered wheat",
+    "mealImg":"images/menu/Sennerin-burger1.jpg",
+    "mealName":"Sennerin burger",
+    "mealDetails":"Beef (approx. 180g), cheese, lettuce, onion, tomatoes, pickle.",
+    "price":  "9,99 €"
+  },
+  {
+    "id":"5",
+    "mealImg":"images/menu/Sennerin-burger2.jpeg",
+    "mealName":"Sennerin burger",
+    "mealDetails":"Beef (approx. 190g), cheese, lettuce, onion, tomatoes, pickle.",
+    "price":"9,75 €"
+  },
+  {
+    "id":"6",
+    "mealImg":"images/menu/Sennerin-burger3.jpg",
+    "mealName":"Sennerin burger",
+    "mealDetails":"Beef (approx. 180g), cheese, lettuce, onion, tomatoes, pickle. With french fries 2.40€ ",
+    "price":"9,25 €"
+  },
+  {
+    "id":"7",
+    "mealImg":"images/menu/Sennerin-burger4.jpg",
+    "mealName":"Sennerin burger",
+    "mealDetails":"Beef (approx. 185g), cheese, lettuce, onion, tomatoes, pickle. With french fries 2.40€ ",
+    "price":"10,00 €"
+  },
+  {
+    "id":"8",
+    "mealImg":"images/menu/Farmers-burger.jpg",
+    "mealName":"Farmers burger",
+    "mealDetails":"Beef (about 200g), spicy BBQ sauce, fried egg, salad, onion, tomatoes, pickle. With french fries 2.40€  ",
+    "price":"9,90 €"
+  } ,
+  {
+    "id":"9",
+    "mealImg":"images/menu/Vegan-patties.jpg",
+    "mealName":"Vegan patties",
+    "mealDetails":"Vegan patties with vegetables on a fruity tomato sauce",
+    "price": "11,50 €"
+  },
+  {
+    "id":"10",
+    "mealImg":"images/menu/colorful.jpg",
+    "mealName":"colorful",
+    "mealDetails":"Large mixed salad",
     "price":"7,50 €"
+  },
+  {
+    "id":"11",
+    "mealImg":"images/menu/Shepherd's-Salad.jpg",
+    "mealName":"Shepherd's Salad",
+    "mealDetails":"Salad with peppers, onions, olives and feta cheese",
+    "price":"9,75 €"
+  },
+  {
+    "id":"12",
+    "mealImg":"images/menu/Goggelar.jpg",
+    "mealName":"Goggelar",
+    "mealDetails":"Salad with corn,  onions, olives and juicy corn chicken breast fillet",
+    "price":"12,50 €"
+  },
+  {
+    "id":"13",
+    "mealImg":"images/menu/Pasta-Salmone1.webp",
+    "mealName":"Pasta Salmone",
+    "mealDetails":"Pasta with fresh salmon, grilled vegetables, spinach and cream sauce",
+    "price":"13,99 €"
+  },
+  {
+    "id":"14",
+    "mealImg":"images/menu/Pasta-Salmone.jpg",
+    "mealName":"Pasta Salmone ",
+    "mealDetails":"Pasta with fresh salmon, grilled vegetables, spinach and cream sauce",
+    "price":"14,99 €"
+  },
+  {
+    "id":"15",
+    "mealImg":"images/menu/Warm-chocolate-cake.webp",
+    "mealName":"Warm chocolate cake ",
+    "mealDetails":"Warm chocolate cake with vanilla ice cream",
+    "price":"5,90 €"
+  },
+  {
+    "id":"16",
+    "mealImg":"images/menu/Schmugglerkiste.png",
+    "mealName":"Schmugglerkiste",
+    "mealDetails":"Treasure box filled with chocolate and vanilla ice cream. Including a small surprise ",
+    "price":"3,50 €"
   }
 ]
