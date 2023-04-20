@@ -21,7 +21,7 @@ const header = `
 const footer = ` <div class="container">
 <div class="box_footer">
   <div class="col-md-6">
-    <p>© <Span class="what_year"></Span> All rights reserved. <span>MENURY</span></p>
+    <p>© <Span class="what_year"></Span> All rights reserved. <span>ANDREW</span></p>
   </div>
   <ul class="social-icons">
     <li><a href="#">Facebook</a></li>

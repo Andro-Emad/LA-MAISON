@@ -17,13 +17,7 @@
 #menu .container .menu-box h1 {
   color: var(--colorTwe);
 }
-#menu .container .menu-box a {
-  color: var(--colorOne);
-  transition: var(--transition);
-}
-#menu .container .menu-box a:hover {
-  color: var(--colorTwe);
-}
+
 #menu .container #menu-card {
   border-radius: 10px;
 }
